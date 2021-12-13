@@ -1,3 +1,4 @@
+#This is a multi-stage build file
 FROM node:16-alpine as builder
 
 WORKDIR '/app'
